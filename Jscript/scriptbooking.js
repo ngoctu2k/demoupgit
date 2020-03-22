@@ -32,6 +32,23 @@ $('#dot3').click(function(){
   $('.row__slideshow').css("margin-left","-100%");
 })
 
+
+// 
+  $('.slider-caterogi-3').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  dots:true,
+ 
+});
+  // menu bar
+  $('#home_menu-mobile').click(function (){
+    $('#menu_mobile').css({"transform": "translateX(0)"});
+  })
+   $('#closemobile').click(function (){
+    $('#menu_mobile').css({"transform": "translateX(100%)"});
+  })
 // cong tru
 
 var number =document.getElementById("input_value");
@@ -56,20 +73,3 @@ $('#coachfemale').click(function(){
    $('#checkedmale').hide();
   $('#checkedfemale').show();
 })
-
-// 
-  $('.slider-caterogi-3').slick({
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 2000,
-  dots:true,
- 
-});
-  // menu bar
-  $('#home_menu-mobile').click(function (){
-    $('#menu_mobile').css({"transform": "translateX(0)"});
-  })
-   $('#closemobile').click(function (){
-    $('#menu_mobile').css({"transform": "translateX(100%)"});
-  })

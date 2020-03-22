@@ -479,4 +479,46 @@ html {
     cursor: pointer;
     color: #000;
 }
+.home_footer-icon{
+	margin-right: 15px;
+	font-size: 30px;
+}
 /*rponsive*/
+/*rponsive*/
+@media all and (max-width: 768px) {
+	.header__left,.header__right {
+		display: none;
+	}
+	 .row-booking{
+		margin-bottom: 0;
+	}
+	.button-bottom {
+		margin-top: 0;
+	}
+	.icon__cart{
+		display: none;
+	}
+	.icon__bar{
+		display: block;
+	}
+
+}
+/*ip5*/
+@media all and (max-width: 320px) {
+	.link__titel{
+		font-size: 30px;
+	}
+	.nav_mobile{
+		width: 240px;
+	}
+
+}
+/*ip6/7/8*/
+@media all and (max-width: 320px) {
+	.link__titel {
+    font-size: 40px;
+}
+@media all and (min-width: 768px ) and (max-width: 1024px{
+	
+
+}
