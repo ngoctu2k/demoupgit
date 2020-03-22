@@ -1,0 +1,68 @@
+.title-our-service{
+	text-align: center;
+}
+ .img-caterogi{
+	max-width: 100%;
+	    transform: scale(1);
+  vertical-align: middle;
+        background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+}
+.caterogi1-first{
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 30px;
+
+	
+}
+.caterogi1-first a{
+	display: block;
+	width: 100%;
+	overflow:hidden;
+	color: #fff;
+}
+.caterogi1-first:hover .img-caterogi{
+transform: scale(1.1);
+}
+.gym-star{
+	position: absolute;
+	left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.row_caterogi1{
+	color: #fff;
+	text-transform: uppercase;
+}
+.start_now{
+	    padding: 5px;
+    border: none;
+    outline: none;
+    background: #e17044;
+    font-size: 18px;
+    margin: 5px 0 10px 0;
+}
+.title--gym-caterogi1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.slogan-gym{
+	    font-size: 26px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.detail-crouses-gym{
+	font-size: 18px;
+}
+.description{
+	margin-bottom: 5px;
+}
+.title--middle{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 50px;
+	font-weight: 700;
+}

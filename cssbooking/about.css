@@ -1,0 +1,28 @@
+.section2-about{
+	padding: 50px 0;
+}
+.title-about{
+	text-align: center;
+	font-weight: 600;
+	padding-bottom: 30px;
+}
+.img-header-about,.img-treadmill,
+.img-body6m,.img-squat{
+	max-width: 100%;
+}
+.section3-about{
+	padding: 50px 0;
+}
+.concept{
+	display: flex;
+}
+.text-our-concept{
+	margin-left: 30px;
+}
+.section4-about{
+	padding-bottom: 100px;
+	padding-top: 50px;
+}
+.text-p{
+	font-size: 18px;
+}

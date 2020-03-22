@@ -1,0 +1,50 @@
+.section2_profile{
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+.title-my-profile{
+	text-align: center;
+}
+.avatar-profile{
+	width: 250px;
+	text-align: center;
+}
+.img_avatar{
+	max-width: 100%;
+	vertical-align: middle;
+}
+.row_profile{
+	margin-top: 50px;
+}
+.profile-detail{
+	padding-left: 30px;
+	font-size: 20px;
+}
+.profile-sex{
+	    margin-left: 100px;
+}
+.profile-phonenumber,
+.profile-email{
+	display: block;
+}
+.profile-normal{
+	display: flex;
+}
+.icon-profile{
+	margin-right: 30px;
+}
+.infor-account{
+	padding: 10px 0;
+}
+.socials_network{
+	font-size: 40px;
+	    padding: 10px 0;
+}
+.link_social{
+	color: #000;
+	    margin-right: 10px;
+}
+.text_intro-profile{
+	text-align: justify;
+	margin: 10px 0;
+}

@@ -1,0 +1,482 @@
+ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+/*css header */
+.section1{
+	position: relative;
+}
+.header__booking{
+	display: flex;
+	justify-content: space-between;
+}
+.list--left,.list--right{
+	display: inline-block;
+	padding: 10px;
+
+}
+.list--left a ,
+.list--right a{
+	color:#2f2f2f;
+	font-size: 18px;
+}
+.list--left a:hover ,
+.list--right a:hover{
+	text-decoration: none;
+}
+.link__titel{
+	font-size: 48px;
+	color: #e17044;
+}
+.icon__menu{
+	    padding-right: 15px;
+    font-size: 36px; 
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.icon__bar{
+	display: none;
+}
+/**/
+.header__content{
+	text-align: center;
+	padding-top: 50px;
+
+}
+.text-header-left{
+	text-align: initial;
+	   
+    font-size: 18px;
+   /* line-height: 40px;*/
+}
+.text--titel--wellcome{
+	font-size: 36px;
+	color: #e17044;
+}
+.img--header{
+	max-width: 100%;
+}
+.menu__top{
+	text-align: center;
+}
+.list__menutop{
+	    /*white-space: nowrap;*/
+	    padding: 0 30px;
+	    display: flex;
+}
+.select__group{
+	    display: inline-block;
+    font-size: 18px;
+    padding: 15px 155px 15px 15px;
+    background: #f9f3f1;
+    border: none;
+    outline: none;
+}
+
+.form__menu{
+	background: #fff;
+}
+
+.submit__menu{
+	    border: none;
+    font-size: 18px;
+    padding: 14px;
+    background: #e17044 !important;
+   outline: none;
+    float: right;
+}
+.header__content{
+	position: relative;
+}
+.menu__top{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.special--titel{
+	height: 50%;
+	position: relative;
+}
+.detail--text{
+	padding-left: 30px;
+}
+.text--titel--wellcome {
+	    position: absolute;
+    bottom: 23%;
+    left: 30px;
+}
+/*section2*/
+.section2{
+	padding-top: 50px;
+}
+.images__about{
+	max-width: 100%;
+	vertical-align: middle;
+	transform: scale(1);
+	transition: 0.5s;
+}
+.images__about:hover{
+	transform: scale(1.1);
+}
+.tab__about--content{
+	padding-left: 15px;
+}
+.images__section2{
+	overflow: hidden;
+}
+.about__button__tab button{
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	width: 20%;
+height: 10px;
+cursor: pointer;
+box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+
+}
+.about__button__tab button:active{
+	background: #000;
+
+}
+
+.btn-tab1{
+	background: #fe4e37;
+}
+.btn-tab2{
+	background: #fe4e37;
+}
+.btn-tab3{
+	background: #fe4e37;
+	bor
+}
+.tab__detal--about{
+	padding-top: 30px;
+}
+.title--about{
+	color: #4b4b4b;
+}
+.title--about{
+	margin-bottom: 30px;
+}
+.tabcontent2{
+	display: none;
+}
+.tabcontent3{
+	display: none;
+}
+/*section3*/
+.section3{
+	padding-top: 50px;
+}
+.row__section3--row1{
+	position: relative;
+}
+.eclipse{
+	height: 250px;
+	width: 250px;
+	background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255,0,0,1));
+	border-radius: 50%;
+}
+.title--service{
+	padding-left: 30px;
+}
+.title--our{
+	margin: 0;
+}
+.our--service{
+	position: absolute;
+    top: 20%;
+    left: 13%;
+}
+.fill-img{
+	overflow: hidden;
+	margin-left: 10px;
+	display: block;
+}
+.image__gym,.image__yoga,.image__gym2{
+
+	max-width: 100% !important;
+	
+	/*background-position: center;*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	transform: scale(1);
+	transition: 0.4s;
+
+}
+.image__gym:hover,.image__yoga:hover,.image__gym2:hover{
+	transform: scale(1.1);
+}
+
+.row__section3--row3,
+.row__section3--row2,
+.row__section3--row4{
+	position: relative;
+	overflow: hidden;
+}
+.text--center{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+.dot__slideshow{
+	text-align: center;
+	padding-top: 15px;
+}
+.btn-dot{
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	border:none;
+	padding-left: 10px;
+	margin-left: 15px;
+	background: #4b4b4b;
+}
+.slideshow__img{
+overflow: hidden;
+padding-right: 0px !important;
+padding-left: 0 !important;
+}
+.row__slideshow{
+width: 150%;
+    display: flex;
+    transition: 0.3s;
+}
+.row__section3--row2 ,.row__section3--row3
+,.row__section3--row4	
+{
+	width: 50%;
+}
+/*section4*/
+.section4{
+	padding-top: 50px;
+}
+.section4__container{
+	text-align: center;
+}
+.title--meet-our {
+	font-size: 36px;
+	font-weight: 700;
+}.group__staff{
+	display: flex;
+	width: 
+}
+.profile__staff{
+	padding-top: 30px;
+}
+.styledot{
+	background: red;
+}
+/*slieshow*/
+.slide1{
+	display: flex;
+	padding:0 10%;
+}
+.img__staff{
+	max-width: 100%;
+	padding-top: 20%;
+}
+.pro--staff{
+	width: 33,333%;
+	position: relative;
+padding-left: 15px;
+}
+
+.section4{
+	padding-top: 50px;
+}
+.carousel-indicators{
+	bottom: 0;
+	left: 0;
+}
+.carousel-indicators li{
+	background-color: #4b4b4b;
+	height: 15px !important;
+    width: 15px !important;
+    border-radius: 50% !important;
+    border: none;
+    padding-left: 10px !important;
+    margin-left: 15px !important;
+    background: #4b4b4b;
+
+}
+.carousel-indicators .active{
+	background-color: red !important;
+}
+/*section5*/
+.section5{
+	padding: 50px 0;
+}.pagination{
+	margin: 0;
+}
+.pagination a:hover:not(.active) {background-color: #ddd;}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+.title--listen-event{
+	text-align: center;
+
+}
+.container-fluid__courses{
+	background: #f9f3f1;
+	pa
+}
+.more-courses{
+	position: relative;
+}
+.add-courses{
+	display: flex;
+	margin-bottom: 10px;
+
+    text-transform: uppercase;
+}
+.add-courses-icon{
+	    padding: 40px;
+	    font-size: 36px;
+	    color: #ffab8c;
+	        border: none;
+    background: none;
+    outline: none;
+}
+.courses-yoga{
+	font-size: 24px;
+}
+.courses-Capacity{
+	margin-right: 50px;
+}
+.time--courses{
+	
+    margin-top: 10px;
+}
+.price-courses-dance{
+	background:#ffab8c;
+}
+
+.price-courses-dance {
+    display: inline-block;
+    text-align: center;
+    margin-right: 3px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    color: #fff;
+    border-radius: 50%;
+    float: left;
+    font-size: 25px;
+}
+.price-courses{
+	position: absolute;
+	top: 50%;
+	right: 0;
+	    transform: translateY(-50%);
+}
+.container-fluid__courses{
+	margin-bottom: 10px;
+}
+/*footer*/
+.container-fluid--footer{
+	background: #000;
+	padding: 50px 0;
+}
+.contact__footer a{ 
+color: #fff }
+.container-fluid--footer a:hover{
+	text-decoration: none;
+}
+.name-web{
+	font-size: 36px;
+	margin-bottom: 15px;
+}
+.icon_footer-home{
+	font-size: 24px;
+	margin-right: 15px;
+}
+.title__footer-menu{
+	color: #fff;
+	margin-top: 0;
+}
+.menu__footer a{
+	color: #ccc;
+}
+.list__menu--footer li{
+	margin-bottom: 10px;
+}
+.menu__footer{
+	    float: left;
+    width: 25%;
+}
+.link__scroll-home{
+	    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+font-size: 30px;
+    border: 1px solid #ccc;
+    text-align: center;
+    float: right;
+}
+.button__footer-home{
+	width: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+/*mobile*/
+.nav_mobile{
+	position: fixed;
+	top:0;
+	right: 0;
+	bottom: 0;
+	width: 320px;
+	background-color: #fff;
+	    overflow: hidden;
+	transition: 0.5s;
+		transform: translateX(100%);
+}
+.nav_mobile{
+	padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.list-mobile{
+	font-size: 20px;
+	    font-weight: 600;
+	    margin-bottom: 10px;
+}
+.list-mobile a{
+	color: #000;
+}
+.close-menu-mobile{
+	position: absolute;
+	    font-size: 20px;
+    top: 35px;
+
+    right: 60px;
+    width: 35px;
+    height: 35px;
+    z-index: 999;
+    background: transparent;
+
+    box-shadow: none;
+    cursor: pointer;
+    color: #000;
+}
+/*rponsive*/

@@ -1,0 +1,197 @@
+.section2-danefit{
+	padding-top: 50px;
+}
+.title-dance-fit{
+	text-align: center;
+	font-weight: 600;
+}
+.text-training-infor{
+	font-size: 18px;
+	padding: 10px 0;
+}
+.img-coach-male{
+	max-width: 100%;
+}
+.choose-coach{
+	position: relative;
+	border:1px solid;
+    margin: 10px 0;
+	border-radius: 5px;
+}
+.choose-coach:hover{
+	background: #e68947;
+
+}
+.icon-check-coach{
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size:25px;
+	color:  #e17044;
+	display: none;
+}
+.book_appoint{
+	font-size: 18px;
+	padding: 15px 0;
+}
+.title-training-infor{
+	font-weight: 600;
+}
+.choose-coach {
+	transition: 0.3s;
+}
+/*cong tru*/
+.amount-menber{
+display: flex;
+}
+.input_amout{
+	    width: 40px;
+    text-align: center;
+    outline: none;
+}
+.button_plus,.button_minus{
+	width: 30px;
+	border: 1px solid;
+	outline: none;
+}
+.aaa{
+	margin-bottom: 10px;
+}
+.font-left{
+	position: relative;
+}
+.button-bottom{
+	/*position: absolute;*/
+	bottom: 0;
+	max-width: 100%;
+	margin-bottom: 30px;
+	    margin-top: 116px;
+}
+.button-add-cart,.button-buy{
+      border: none;
+    background: #e27142;
+    color: #fff;
+   	font-size: 18px;
+
+    padding: 10px 15px;
+    margin-top: 15px;
+    outline: none;
+      
+
+  
+}
+.button-add-cart:hover,.button-buy:hover{
+	background: #ff4b00;
+}
+.row-choose-coach{
+	margin-bottom: 50px;
+}
+.row-booking{
+	margin-bottom: 80px;
+}
+
+}
+.text-section3-caterogi{
+	font-size: 18px;
+}
+.aaa select{
+	width: 100%;
+}
+.slick-arrow{
+	color: red !important;
+	background-color: blue !important; 
+
+}
+.section4-caterogi{
+	padding: 50px 0 100px 0 !important; 
+}
+.img-bottom-caterogi3{
+	max-width: 100%;
+}
+.item-img{
+	
+	margin-left: 10px;
+}
+.slick-prev{
+left: 25px !important;
+    z-index: 99;
+}
+
+.slick-next{
+	right: 25px !important;
+}
+.slider-caterogi-3{
+	max-width: 100%;
+	padding: 0 15px;
+}
+/*mobile*/
+.nav_mobile{
+	position: fixed;
+	top:0;
+	right: 0;
+	bottom: 0;
+	width: 320px;
+	background-color: #fff;
+	    overflow: hidden;
+	transition: 0.5s;
+		transform: translateX(100%);
+}
+.nav_mobile{
+	padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.list-mobile{
+	font-size: 20px;
+	    font-weight: 600;
+	    margin-bottom: 10px;
+}
+.list-mobile a{
+	color: #000;
+}
+.close-menu-mobile{
+	position: absolute;
+	    font-size: 20px;
+    top: 35px;
+
+    right: 60px;
+    width: 35px;
+    height: 35px;
+    z-index: 999;
+    background: transparent;
+
+    box-shadow: none;
+    cursor: pointer;
+    color: #000;
+}
+/*rponsive*/
+@media all and (max-width: 768px) {
+	.header__left,.header__right {
+		display: none;
+	}
+	 .row-booking{
+		margin-bottom: 0;
+	}
+	.button-bottom {
+		margin-top: 0;
+	}
+	.icon__cart{
+		display: none;
+	}
+	.icon__bar{
+		display: block;
+	}
+
+}
+@media all and (max-width: 568px) {
+.link__titel {
+	font-size: 33px;
+}
+
+@media all and (max-width: 667px) {
+	.link__titel {
+	font-size: 40px;
+}
+@media only screen and (min-width: 768px) {
+
+}

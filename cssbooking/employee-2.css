@@ -1,0 +1,81 @@
+.section2_employee {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.title-our-coach{
+	text-align: center;
+}
+.row_section2-employee{
+	padding-top: 30px;
+}
+.profile-detail--infor{
+	font-size: 20px;
+}
+.icon-profile{
+	margin-right: 30px;
+}
+.infor-account {
+    padding: 10px 0;
+}
+.socials_network{
+	    font-size: 40px;
+    padding: 10px 0
+}
+
+.link_social {
+    color: #000;
+    margin-right: 10px;
+}
+.img-coach{
+	max-width: 100%;
+}.avatar-coach{
+	background: #ffcdba;
+	text-align: center;
+	position: relative;
+}
+.title-yoga-employee2{
+	font-size: 30px;
+    color: #fff;
+   
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.name-coach-rotate{
+	transform: rotate(90deg);
+	color: #fff;
+	font-weight: 600;
+	position: absolute;
+	left: -84px;
+	top: 50%;
+	    left: -84px;
+}
+.text_intro-profile{
+	padding-bottom: 25px;
+}
+.link_get-start{
+	background: #e27142;
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 40px;
+}
+.link_get-start:hover{
+	background: #ff4b00;
+}
+.w-100{
+	max-width: 100% !important
+	;
+	width: unset !important
+	;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.demo{
+	display: flex;
+}
+.img-slider{
+	max-width: 100%;
+}
+.section3_employee{
+	padding-bottom: 100px;
+}

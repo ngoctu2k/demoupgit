@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+    <link rel="stylesheet" href="../cssbooking/home.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../cssbooking/edit-profile.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	  <section id="section1" id="section1">
+        <div class=" container">
+            <div class="header__booking">
+                <div class="header__left">
+                    <ul class="header__left--list">
+                        <li class="list--left"> <a href="">Home</a></li>
+                        <li class="list--left"> <a href="">About</a></li>
+                        <li class="list--left"> <a href="">Catelogy</a></li>
+                    </ul>
+                </div>
+                <div class="link__titel__home"><a class="link__titel" href="">Wp booking pro</a></div>
+                <div class="header__right">
+                    <ul class="header__right ">
+                        <li class="list--right"><a href="">Employee</a></li>
+                        <li class="list--right"><a href="">Events</a></li>
+                        <li class="list--right"><a href="">My Profile</a></li>
+                    </ul>
+                </div>
+                <div class="icon__menu">
+                    <div id="home_menu-mobile" class="icon__bar"><i class=" fas fa-bars"></i></div>
+                    <div class="icon__cart"><i class=" fas fa-shopping-cart"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section2_edit-profile">
+    	<div class="container container_section2-edit">
+    		<h1 class="title-edit-profile">EDIT PROFILE</h1>
+    		<form action="">
+    			<div class="row row_profile">
+    			<div class="col-md-4 change-avatar">
+    				<div class="edit-avatar">
+    					<img class="img_avatar" src="../images/profile-img.jpg" alt="">
+    					<div class="choosefile-avatar">
+    						<div class="choosefile-avatar-links">
+    							<i class="icon-change-avatar fas fa-camera"></i>
+    						<input class="input-avatar" type="file" accept=".png, .jpg, .jpeg" />
+    						</div>
+    						
+    					</div>
+    					
+    				</div>
+    			</div>
+    			<div class="col-md-8">
+    				<div class="edit-profile-detail">
+    					<div class="import_value">
+    						<span>Name:</span>
+    						<span class="import_value--base-edit">
+    							 <input class="input_name edit-name" type="text" placeholder="First Name">
+    						  <input class="input_name edit-brith" type="date" id="birthday" name="birthday" value="26/3/1000">
+    						</span>
+    						
+    					</div>
+    					<div class="import_value">
+    						<span>Phone Number:</span>
+    						<input class="input_name-edit edit-phone-number" type="text" placeholder="0299999999">
+    					</div>
+    					<div class="import_value">
+    						<span>Email:</span>
+    						<input class="input_name-edit edit-email" type="text" placeholder="DoubleB@gmaol.com">
+    					</div>
+    					<div class="import_value">
+    						<span>Sex</span>
+    						<span class="sex-choose">
+    							 <input type="radio" id="male" name="gender" value="male">
+  										<label for="male">Male</label>
+								  <input type="radio" id="female" name="gender" value="female">
+  									<label for="female">Female</label><br>				
+    						</span>
+
+    					</div>
+    					<div class="import_value text-textarea">
+    						<span>Story</span>
+    						 <textarea class="import_text-story" maxlength="150" minlength="0"></textarea>
+    					</div>
+    					<div>
+    					 <button class="submit-edit-proflie" type="submit" value="Submit">Submit</button>
+    				</div>
+    				</div>
+    				
+    			</div>
+    	</div>
+    		</form>
+    		
+    </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,114 @@
+.section2_checkout{
+      padding-bottom: 100px;
+    padding-top: 50px;
+}
+.title--checkout{
+	text-align: center;
+}
+.checkout_left-head{
+	display: flex;
+}
+.details-course-checkout{
+	padding: 0 15px;
+	    background: #f9f3f1;
+}
+.checkout_right-head{
+	    margin-left: 30px;
+}
+.row_container2_checkout{
+	padding-top: 50px;
+}
+.city{
+	margin-top: 42px;
+    font-size: 16px;
+    line-height: 16px;
+}
+.checkout_left-head{
+	border-bottom: 1px solid 
+rgba(47, 47, 47, 0.5);
+    padding-bottom: 15px;
+        padding-top: 30px;
+}
+.checkout-left-body{
+	    padding: 30px 0;
+	    font-size: 20px;
+	        border-bottom: 1px solid rgba(47, 47, 47, 0.5);
+}
+.number--body,.date--body,.location--body,.bottom--total{
+	    display: flex;
+    justify-content: space-between;
+    
+    padding-bottom: 30px;
+}
+.location-default{
+	color: 
+rgba(47, 47, 47, 0.5);
+}
+.checkout-left-bottom{
+	padding: 30px 0;
+    font-size: 20px;
+}
+.bottom--total{
+	padding: 30px 0;
+}
+/* payment-ìnor   */
+.title--payment-infor{
+	font-size: 30px;
+	font-weight: 600;
+}
+::placeholder {
+  color:black;
+}
+input{
+	border: none;
+	border-bottom: 1px solid rgba(47, 47, 47, 0.5);
+	    font-size: 20px;
+	    outline: none;
+	    display: block;
+}
+input::placeholder {
+  color: black;}
+ .input_header{
+  	    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+
+  }
+  .payment-infor-container{
+  	    padding: 0 5%;
+  }
+  .input_name{
+  	display: block;
+  	margin: 15px 0;
+  }
+  .card-number{
+  	width: 100%;
+  }
+  .title--card-infor{
+  	font-size: 30px;
+  	font-weight: 600;
+  }
+  .payments{
+  	    margin-top: 95px;
+  }
+  .card-form{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title--card-infor{
+    padding-bottom: 45px;
+  }
+  .button-confirm{
+    border: none;
+    background: #e27142;
+    color: #fff;
+    font-size: 30px;
+    padding: 0px 40px;
+    float: right;
+    margin-top: 30px;
+  outline: none;
+  }
+.button-confirm:hover{
+  background: #ff4b00;
+}
