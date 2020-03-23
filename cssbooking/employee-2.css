@@ -79,3 +79,12 @@
 .section3_employee{
 	padding-bottom: 100px;
 }
+/*responsive*/
+@media all (max-width: 320px){
+.profile-detail--infor{
+	font-size: 18px;
+}
+.name-coach-head{
+	font-size: 30px;
+}
+}

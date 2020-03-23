@@ -501,12 +501,17 @@ html {
 	.icon__bar{
 		display: block;
 	}
+	.text-p{
+		font-size: 16px !important;
+	}.section4-about{
+		padding-top: 0 !important;
+	}
 
 }
 /*ip5*/
 @media all and (max-width: 320px) {
 	.link__titel{
-		font-size: 30px;
+		font-size: 30px !important;
 	}
 	.nav_mobile{
 		width: 240px;
@@ -514,11 +519,24 @@ html {
 
 }
 /*ip6/7/8*/
-@media all and (max-width: 320px) {
+@media all and (min-width: 320px)  and (max-width: 767px){
 	.link__titel {
-    font-size: 40px;
+    font-size: 40px ;
+	}
 }
-@media all and (min-width: 768px ) and (max-width: 1024px{
+@media all and (min-width: 768px ) and (max-width: 1024px){
 	
 
+}
+@media all and (min-width: 769px) and (max-width: 991px) {
+	.list--left a, .list--right a{
+		font-size: 10px;
+	}
+	.link__titel{
+		font-size: 40px;
+	}
+	.fa-shopping-cart{
+		font-size: 26px;
+	}
+	
 }

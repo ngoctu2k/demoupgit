@@ -48,3 +48,9 @@
 	text-align: justify;
 	margin: 10px 0;
 }
+/*reponsive*/
+@media all (max-width: 767px){
+	.icon-profile {
+    margin-right: 10px;
+}
+}

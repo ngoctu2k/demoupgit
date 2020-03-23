@@ -55,6 +55,7 @@ rgba(47, 47, 47, 0.5);
 .title--payment-infor{
 	font-size: 30px;
 	font-weight: 600;
+  line-height: 30px;
 }
 ::placeholder {
   color:black;
@@ -111,4 +112,65 @@ input::placeholder {
   }
 .button-confirm:hover{
   background: #ff4b00;
+}
+.img-checkout{
+  max-width: 100%;
+}.checkout_right-head{
+  margin-left: 0;
+}
+/*responsive*/
+@media all and (max-width: 768px){
+    .card-form{
+    display: unset;
+  }
+  .input_header{
+    display: unset;
+    margin-top: 0px;
+  }
+  .payment-infor-container{
+    padding: 0;
+  }
+  .payments{
+    margin-top: 0;
+  }
+  .title--card-infor{
+    padding-bottom: 0;
+  }
+  .card-number{
+    width: unset;
+  }
+  .checkout_right-head{
+    margin-left: 0;
+  }
+}
+.checkout-address{
+  font-size: 14px;
+  padding-top: 6px;
+}
+
+
+@media all and (max-width: 320px) {
+  .checkout_right-head h2{
+    font-size: 26px;
+  }
+  .city{
+    font-size: 14px;
+  }
+  .checkout-left-body{
+    font-size: 16px;
+  }
+  .bottom--total{
+    padding: 0;
+  }
+}
+@media all and (min-width: 769px) and (max-width: 1199px) {
+  .card-number{
+  width: unset;
+}
+.lastname{
+  margin-left: 10px;
+}
+.cvv{
+  margin-left: 10px;
+}
 }

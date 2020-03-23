@@ -54,22 +54,23 @@ input{
  
 
 }
+.edit-brith{
+	
+}
 .import_value{
-	    margin: 20px 0;
+	    margin: 44px 0;
 }
 .input_name-edit,.import_value--base-edit{
-	float: right;
-	width: 70%;
+
+	
 }
 .sex-choose{
-	float: right;
-	width: 70%;
+	
 	border-bottom: 1px solid rgba(47, 47, 47, 0.5);
 }
 .import_text-story{
 	resize: none;
-	float: right;
-	width: 70%;
+	
 	outline: none;
 	height:  150px;
 }
@@ -91,3 +92,17 @@ input{
 .submit-edit-proflie:hover{
 	background: #ff4b00;
 }
+
+}
+/*
+*/
+@media all and (max-width: 991px){
+	.input_name{
+		width: 100%;
+	}
+	}
+	@media all and (max-width: 767px){
+		.edit-profile-detail{
+			padding-left: 0;
+		}
+	}
