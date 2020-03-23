@@ -2,6 +2,9 @@ ul {
 	list-style-type: none;
 	padding-left: 0px;
 }
+button{
+	outline: none;
+}
 /*css header */
 .section1{
 	position: relative;
@@ -45,9 +48,9 @@ ul {
 }
 .text-header-left{
 	text-align: initial;
-	   
+	   margin-top: 30px;
     font-size: 18px;
-   /* line-height: 40px;*/
+    line-height: 40px;
 }
 .text--titel--wellcome{
 	font-size: 36px;
@@ -62,15 +65,18 @@ ul {
 .list__menutop{
 	    /*white-space: nowrap;*/
 	    padding: 0 30px;
-	    display: flex;
+	
 }
 .select__group{
 	    display: inline-block;
     font-size: 18px;
-    padding: 15px 155px 15px 15px;
+   height: 55px;
+    line-height: 55px;
+    width: 100%;
     background: #f9f3f1;
     border: none;
     outline: none;
+    padding-left: 15px;
 }
 
 .form__menu{
@@ -80,10 +86,12 @@ ul {
 .submit__menu{
 	    border: none;
     font-size: 18px;
-    padding: 14px;
+  
     background: #e17044 !important;
    outline: none;
-    float: right;
+    width: 100%;
+    height: 55px;
+   line-height: 55px;
 }
 .header__content{
 	position: relative;
@@ -434,7 +442,7 @@ font-size: 30px;
     float: right;
 }
 .button__footer-home{
-	width: 100%;
+	width: 90%;
 }
 html {
   scroll-behavior: smooth;
@@ -484,8 +492,56 @@ html {
 	font-size: 30px;
 }
 /*rponsive*/
+@media all and (max-width: 767px) {
+	.text--titel--wellcome{
+		position: unset;
+		margin-top: 0 !important; 
+	}
+	.menu__top{
+		display: none;
+	}
+	.special--titel{
+		height: unset;
+	}
+	.row__section3--row1{
+		margin-bottom: 30px;
+	}
+	.tab__about--content{
+		padding-left: 0;
+	}
+	.home_city-staff{
+		font-size: 18px;
+	}
+	.tab__detal--about{
+		padding-top: 0;
+	}
+	.section5{
+		padding: 0;
+	}
+	.section4{
+		padding-top: 0;
+	}
+	.price-courses{
+		top: 37%;
+	}
+	.courses-yoga{
+		font-size: 18px;
+	}
+	.price-courses-dance{
+		width: 35px;
+		height: 35px;
+		font-size: 18px;
+		line-height: 35px;
+	}
+	.courses-Location{
+		display: block;
+	}
+	.link_social{
+		margin-bottom: 15px;
+	}
+} 
 /*rponsive*/
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
 	.header__left,.header__right {
 		display: none;
 	}
@@ -528,7 +584,7 @@ html {
 	
 
 }
-@media all and (min-width: 769px) and (max-width: 991px) {
+@media all and (min-width: 768px) and (max-width: 991px) {
 	.list--left a, .list--right a{
 		font-size: 10px;
 	}

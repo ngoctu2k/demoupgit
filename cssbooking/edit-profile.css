@@ -35,6 +35,7 @@ width: 50px;
     top: 50%;
     transform: translateY(-50%);
     opacity: 0;
+    z-index: 99;
 }
 .choosefile-avatar{
 	    position: absolute;
@@ -44,14 +45,14 @@ width: 50px;
 /*col-md-8*/
 .edit-profile-detail{
 	padding-left: 30px;
-    font-size: 20px;
+    font-size: 18px;
 }
 input{
 	    border: none;
     border-bottom: 1px solid rgba(47, 47, 47, 0.5);
-    font-size: 20px;
+    font-size: 18px;
     outline: none;
- 
+
 
 }
 .edit-brith{
@@ -70,7 +71,7 @@ input{
 }
 .import_text-story{
 	resize: none;
-	
+	width: 100%;
 	outline: none;
 	height:  150px;
 }
@@ -92,17 +93,29 @@ input{
 .submit-edit-proflie:hover{
 	background: #ff4b00;
 }
-
+.input_name-edit{
+	padding:0;
+	width: 100%;
 }
+.input_name {
+	width: 100%;
+}
+.sex-chooses{
+	display: block;
+	width: 100%;
+		border-bottom: 1px solid rgba(47, 47, 47, 0.5);
+}
+
 /*
 */
-@media all and (max-width: 991px){
-	.input_name{
-		width: 100%;
+@media all and (min-width:768px){
+	
 	}
+@media all and (max-width: 767px){
+	.edit-profile-detail{
+		padding-left: 0;
 	}
-	@media all and (max-width: 767px){
-		.edit-profile-detail{
-			padding-left: 0;
-		}
+	.edit-brith{
+		padding-top: 15px;
+	}
 	}

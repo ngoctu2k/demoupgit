@@ -49,8 +49,13 @@
 	margin: 10px 0;
 }
 /*reponsive*/
-@media all (max-width: 767px){
+@media all and (max-width: 767px){
 	.icon-profile {
     margin-right: 10px;
 }
+}
+@media all and (max-width: 399px){
+	.profile-sex{
+		margin-left: 50px !important;
+	}
 }

@@ -14,7 +14,7 @@
 }
 .choose-coach{
 	position: relative;
-	border:1px solid;
+	border:1px solid #e68947;
     margin: 10px 0;
 	border-radius: 5px;
 }
@@ -45,14 +45,19 @@
 display: flex;
 }
 .input_amout{
-	    width: 40px;
+	    width: 30px;
+	    height: 30px;
     text-align: center;
     outline: none;
+    border: 1px solid #e68947;
 }
 .button_plus,.button_minus{
 	width: 30px;
-	border: 1px solid;
+	height: 30px;
+	border: 1px solid #e68947;
 	outline: none;
+	background:#e68947;
+	line-height: 30px;
 }
 .aaa{
 	margin-bottom: 10px;
@@ -74,7 +79,7 @@ display: flex;
    	font-size: 18px;
 
     padding: 10px 15px;
-    margin-top: 15px;
+  
     outline: none;
       
 
@@ -90,7 +95,7 @@ display: flex;
 	margin-bottom: 80px;
 }
 
-}
+
 .text-section3-caterogi{
 	font-size: 18px;
 }
@@ -123,6 +128,21 @@ left: 25px !important;
 .slider-caterogi-3{
 	max-width: 100%;
 	padding: 0 15px;
+}
+.select_adr{
+	max-width: 100%;
+	width: 100%;
+}
+.select_time{
+	max-width: 100%;
+	width: 100%;
+}
+.book-detial{
+	font-size: 18px;
+}
+.rowbook{
+	margin-bottom: 15px;
+	line-height: 40px;
 }
 /*mobile*/
 .nav_mobile{
@@ -165,7 +185,7 @@ left: 25px !important;
     color: #000;
 }
 /*rponsive*/
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
 	.header__left,.header__right {
 		display: none;
 	}
@@ -181,17 +201,66 @@ left: 25px !important;
 	.icon__bar{
 		display: block;
 	}
+	.row-choose-coach{
+	margin-bottom: 0;
+}
+.text-training-infor{
+	padding: 0;
+}
+.book_appoint{
+	padding:10px;
+}
+
 
 }
 @media all and (max-width: 568px) {
 .link__titel {
 	font-size: 33px;
 }
-
+}
 @media all and (max-width: 667px) {
 	.link__titel {
 	font-size: 40px;
+}}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+	.button-buy{
+	width: 200px;
+	}
+	.button-add-cart{
+		width: 200px;
+	}
+	.button-bottom{
+	margin-top: 100px;
 }
-@media only screen and (min-width: 768px) {
-
+.row-booking{
+	margin-bottom: 0;	
+}
+}
+@media all and (min-width: 1200px){
+	.button-bottom {
+    margin-top: 200px;
+}
+	.button-buy{
+	width: 200px;
+	}
+	.button-add-cart{
+		width: 200px;
+	}
+}
+@media all and (min-width: 768px) and (max-width: 991px){
+.row-choose-coach{
+	margin-bottom: 0;
+}
+.text-training-infor{
+	padding: 0;
+}
+.book_appoint{
+	padding:10px;
+}
+.button-bottom{
+	margin-top: 0;
+}
+.row-booking{
+	margin-bottom: 0;	
+}
 }

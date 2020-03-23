@@ -136,22 +136,33 @@ input::placeholder {
   .title--card-infor{
     padding-bottom: 0;
   }
-  .card-number{
-    width: unset;
-  }
+ 
+  
   .checkout_right-head{
     margin-left: 0;
   }
-}
-.checkout-address{
+  .checkout-address{
   font-size: 14px;
   padding-top: 6px;
+  }
+  .input_name {
+      width: 100% !important;
+  }
 }
 
+@media all and(max-width: 767px){
+  input {
+    width: 100%;
+  }
+}
 
 @media all and (max-width: 320px) {
   .checkout_right-head h2{
     font-size: 26px;
+  }
+  .checkout-address{
+    font-size: 16px !important;
+    padding-top: 0 !important;
   }
   .city{
     font-size: 14px;
@@ -163,9 +174,18 @@ input::placeholder {
     padding: 0;
   }
 }
-@media all and (min-width: 769px) and (max-width: 1199px) {
-  .card-number{
-  width: unset;
+@media all and (min-width: 768px) and (max-width: 1199px) {
+.firstname{
+  width: 50%;
+}
+.lastname{
+  width: 50%;
+}
+.expiration,.cvv{
+  width: 50%;
+}
+.phone,.e-mail{
+  width: 100%;
 }
 .lastname{
   margin-left: 10px;
@@ -173,4 +193,9 @@ input::placeholder {
 .cvv{
   margin-left: 10px;
 }
+}
+@media all and(max-width: 406px){
+  .city{
+    margin-top: 0;
+  }
 }
