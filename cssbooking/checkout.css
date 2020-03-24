@@ -119,7 +119,7 @@ input::placeholder {
   margin-left: 0;
 }
 /*responsive*/
-@media all and (max-width: 768px){
+@media all and (max-width: 767px){
     .card-form{
     display: unset;
   }
@@ -192,6 +192,14 @@ input::placeholder {
 }
 .cvv{
   margin-left: 10px;
+}
+.city{
+  margin-top: 0;
+
+}
+span.checkout-address{
+  font-size: 15px;
+  line-height: 30px;
 }
 }
 @media all and(max-width: 406px){
