@@ -66,11 +66,12 @@ display: flex;
 	position: relative;
 }
 .button-bottom{
-	/*position: absolute;*/
+	position: absolute;
 	bottom: 0;
 	max-width: 100%;
-	margin-bottom: 30px;
-	    margin-top: 116px;
+	width: 100%;
+	
+	 
 }
 .button-add-cart,.button-buy{
       border: none;
@@ -79,7 +80,7 @@ display: flex;
    	font-size: 18px;
 
     padding: 10px 15px;
-  
+  	
     outline: none;
       
 
@@ -117,17 +118,13 @@ display: flex;
 	
 	margin-left: 10px;
 }
-.slick-prev{
-left: 25px !important;
-    z-index: 99;
+.slick-arrow{
+	display: none;
 }
 
-.slick-next{
-	right: 25px !important;
-}
 .slider-caterogi-3{
 	max-width: 100%;
-	padding: 0 15px;
+	/*padding: 0 15px;*/
 }
 .select_adr{
 	max-width: 100%;
@@ -143,6 +140,9 @@ left: 25px !important;
 .rowbook{
 	margin-bottom: 15px;
 	line-height: 40px;
+}
+.container_slider{
+	padding: 0 30px;
 }
 /*mobile*/
 .nav_mobile{
@@ -184,6 +184,8 @@ left: 25px !important;
     cursor: pointer;
     color: #000;
 }
+
+
 /*rponsive*/
 @media all and (max-width: 767px) {
 	.header__left,.header__right {
@@ -193,7 +195,15 @@ left: 25px !important;
 		margin-bottom: 0;
 	}
 	.button-bottom {
-		margin-top: 0;
+		position: unset;
+	}
+	.button-buy{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.button-add-cart{
+		width: 100%;
+		margin-bottom: 30px;
 	}
 	.icon__cart{
 		display: none;
@@ -229,27 +239,31 @@ left: 25px !important;
 	.button-add-cart{
 		width: 200px;
 	}
-	.button-bottom{
-	margin-top: 100px;
+.addcart{
+	padding-left: 0 !important;
 }
 .row-booking{
 	margin-bottom: 0;	
 }
 }
 @media all and (min-width: 1200px){
-	.button-bottom {
-    margin-top: 200px;
-}
+
 	.button-buy{
 	width: 200px;
 	}
 	.button-add-cart{
 		width: 200px;
 	}
+	.addcart{
+	padding-left: 0 !important;
+}
 }
 @media all and (min-width: 768px) and (max-width: 991px){
 .row-choose-coach{
 	margin-bottom: 0;
+}
+.button-buy,.button-add-cart{
+	width: 150px;
 }
 .text-training-infor{
 	padding: 0;
@@ -257,8 +271,9 @@ left: 25px !important;
 .book_appoint{
 	padding:10px;
 }
+
 .button-bottom{
-	margin-top: 0;
+	position: unset;
 }
 .row-booking{
 	margin-bottom: 0;	

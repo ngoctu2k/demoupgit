@@ -72,24 +72,26 @@ button{
     font-size: 18px;
    height: 55px;
     line-height: 55px;
-    width: 100%;
+ 	width: 25%;
     background: #f9f3f1;
     border: none;
     outline: none;
     padding-left: 15px;
+    margin-right: 2px;
 }
 
 .form__menu{
 	background: #fff;
+	display: flex;
 }
 
 .submit__menu{
 	    border: none;
     font-size: 18px;
-  
+  width: 25%;
     background: #e17044 !important;
    outline: none;
-    width: 100%;
+    
     height: 55px;
    line-height: 55px;
 }
@@ -342,6 +344,7 @@ padding-left: 15px;
 .title--listen-event{
 	text-align: center;
 
+
 }
 .container-fluid__courses{
 	background: #f9f3f1;
@@ -354,7 +357,7 @@ padding-left: 15px;
 	display: flex;
 	margin-bottom: 10px;
 
-    text-transform: uppercase;
+   
 }
 .add-courses-icon{
 	    padding: 40px;
@@ -366,6 +369,7 @@ padding-left: 15px;
 }
 .courses-yoga{
 	font-size: 24px;
+	text-transform: uppercase;
 }
 .courses-Capacity{
 	margin-right: 50px;
@@ -539,6 +543,20 @@ html {
 	.link_social{
 		margin-bottom: 15px;
 	}
+	.container-fluid.container-fluid--footer{
+		padding-top: 0;
+		padding-bottom: 50px;
+	}
+	.detail--text{
+		padding-left: 0;
+	}
+	p.text-header-left{
+		line-height: unset;
+		font-size: 16px;
+	}
+	.title--service{
+		margin-top: 0;
+	}
 } 
 /*rponsive*/
 @media all and (max-width: 767px) {
@@ -547,6 +565,9 @@ html {
 	}
 	 .row-booking{
 		margin-bottom: 0;
+	}
+	.time--courses{
+		margin-top: 5px;	
 	}
 	.button-bottom {
 		margin-top: 0;
@@ -561,6 +582,36 @@ html {
 		font-size: 16px !important;
 	}.section4-about{
 		padding-top: 0 !important;
+	}
+	section.section3{
+		padding-top: 15px;
+	}
+	h2.title--about{
+		margin: 0;
+		font-size: 24px;
+	}
+	.about__button__tab{
+		margin: 10px 0;
+		text-align: center;
+	}
+	.our--service h2{
+	font-size: 22px;
+	}
+	.eclipse{
+		height: 200px;
+		width: 200px;
+	}
+	.about__button__tab button{
+		width: 10%;
+	}
+	h1.title--meet-our{
+		font-size: 26px;
+		margin-top: 10px;
+	}
+	h1.title--listen-event{
+		font-size: 26px;
+		margin-top: 10px;
+		margin-bottom: 0;
 	}
 
 }
@@ -591,8 +642,145 @@ html {
 	.link__titel{
 		font-size: 40px;
 	}
+	span.price-courses-dance{
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		font-size: 20px;
+	}
+	.title--service{
+		margin-top: 0;
+	}
+	.price-courses{
+		top: 45%;
+	}
 	.fa-shopping-cart{
 		font-size: 26px;
 	}
+	p.text-header-left{
+		line-height: unset;
+	}
+	section.section2{
+		padding-top: 15px;
+	}
+	.tab__detal--about{
+		padding-top: 10px;
+	}
+	.title--about{
+		margin-bottom: 0;
+	}
+	.eclipse{
+		width: 200px;
+		height: 200px;
+	}
+	.our--service{
+		top: 10%;
+	}
+	.section4{
+		padding-top: 0;
+	}
+	section.section5{
+		padding: 0;
+	}
+	.title--about{
+		margin-top: 0;
+	}
+	.btn-dot{
+		padding-left: 0;
+	}
+	h1.title--meet-our{
+		font-size: 30px;
+	}
+	h1.title--listen-event{
+		font-size: 30px;
+	}
+	h2.courses-yoga{
+		font-size: 18px;
+	}
 	
 }
+@media all and (max-width: 479px){
+	.courses-yoga{
+		font-size: 14px;
+	}
+	.address-courses{
+		font-size: 10px;
+	}
+	.time--courses{
+		font-size: 10px;
+	}
+	.price-courses{
+		top: 42%;
+	}
+	button.add-courses-icon{
+		padding: 4px;
+		font-size: 26px;
+	}
+	span.price-courses-dance{
+		    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+	}
+
+}
+@media all and (min-width: 320px) and (max-width: 360px){
+	.time--courses{
+		display: none;
+	}
+	.title__footer-menu{
+		font-size: 18px;
+	}
+	ul.list__menu--footer{
+		font-size: 10px;
+	}
+	a.link__titel{
+		font-size: 33px;
+	}
+	a.link__scroll-home{
+		width: 30px;
+		height: 30px;
+		font-size: 18px;
+		line-height: 30px;
+	}
+	h1.title--listen-event{
+		font-size: 18px;
+	}
+	h3.home_city-staff{
+		font-size: 14px;
+		margin-top: 10px;
+	}
+	h1.title--meet-our{
+		font-size: 18px;
+	}
+	.detail-meet{
+		font-size: 10px;
+	}
+	.text--center{
+		font-size: 32px;
+	}
+	.eclipse{
+		width: 150px;
+		height: 150px;
+	}
+	.our--service h2{
+		font-size: 20px;
+	}
+	section.section3{
+		padding-top: 15px;
+	}
+	section.section2{
+		padding-top: 15px;
+	}
+	
+	
+	.btn-dot{
+		height: 10px;
+		width: 10px;
+		padding-left: 0;
+	}
+	.title--service{
+		margin-top: 0;
+	}
+}
+@media all and (min-width: 321px) and (max-width: )

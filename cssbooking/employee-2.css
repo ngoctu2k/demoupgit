@@ -53,12 +53,9 @@
 	padding-bottom: 25px;
 }
 .link_get-start{
-	background: #e27142;
-    color: #fff;
-    font-size: 30px;
-    padding: 10px 40px;
+	color: #fff;
 }
-.link_get-start:hover{
+.empolyee2-getstart:hover{
 	background: #ff4b00;
 }
 .w-100{
@@ -79,12 +76,70 @@
 .section3_employee{
 	padding-bottom: 100px;
 }
+.slick-dots li button:before{
+	 font-size: 60px !important;
+	 color: #e27142 !important;
+	 width: 30px !important;
+	 height: 30px !important;
+}
+.slick-dots li{
+	margin-top: 30px !important;
+	margin-left: 30px !important;
+}
+.slick-dots{
+	bottom: -50px !important;
+}
+.empolyee2-getstart{
+	background: #e27142;
+    color: #fff;
+    font-size: 30px;
+    width: 200px;
+    text-align: center;
+        height: 50px;
+    line-height: 50px;
+    position: absolute;
+    bottom: 0;
+}
+.slick-arrow{
+	display: none;
+}
+}
 /*responsive*/
-@media all (max-width: 320px){
+@media all and (max-width: 320px){
 .profile-detail--infor{
 	font-size: 18px;
 }
 .name-coach-head{
 	font-size: 30px;
 }
+}
+@media all and (max-width: 767px){
+	.row_section2-employee{
+		padding-top: 0;
+	}
+	h1.name-coach-head{
+		font-size: 26px;
+	}
+	.infor-account{
+		padding: 0;
+	}
+	.socials_network{
+		padding: 0;
+	}
+	.text_intro-profile{
+		padding-bottom: 0;
+	}
+	.section2_employee{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.empolyee2-getstart{
+		position: unset;
+	}
+	.empolyee2-getstart{
+		font-size: 24px;
+		height: 40px;
+		line-height: 40px;
+		width: 150px;
+	}
 }

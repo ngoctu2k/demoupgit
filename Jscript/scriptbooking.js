@@ -39,7 +39,8 @@ $('#dot3').click(function(){
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 2000,
-  dots:true,
+   prevArrow:'<button type="button" class="slick-prev"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>',
+  nextArrow:'<button type="button" class="slick-next"><i class="fa fa-chevron-left" aria-hidden="true"></i></i></button>',
  
 });
   // menu bar
@@ -73,3 +74,10 @@ $('#coachfemale').click(function(){
    $('#checkedmale').hide();
   $('#checkedfemale').show();
 })
+// employee1 sl
+$('.slider_employee1').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});

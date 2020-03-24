@@ -1,0 +1,25 @@
+.form_search{
+	padding:0 100px;
+}
+.select_search{
+	float: left;
+	width: 25%;
+	height: 52px;
+	font-size: 18px;
+	line-height: 52px;
+	border: none;
+}
+.search_search{
+	float: left;
+	width: 25%;
+	height: 52px;
+	font-size: 18px;
+	line-height: 52px;
+	border: none;
+}
+.section2_search{
+	padding: 50px 0;
+}
+.search_detail{
+	padding: 0 100px;
+}

@@ -1,0 +1,16 @@
+.section2-employee1{
+	padding: 50xp 0;
+}
+.title-employee1{
+	text-align: center;
+}
+.slick-dots li button:before{
+
+	color: red !important;
+}
+img{
+	max-width: 100%;
+}
+.slick-active {
+	transform: scale(15%);
+}
