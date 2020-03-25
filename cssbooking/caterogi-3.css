@@ -17,6 +17,7 @@
 	border:1px solid #e68947;
     margin: 10px 0;
 	border-radius: 5px;
+	width: 100%;
 }
 .choose-coach:hover{
 	background: #e68947;
@@ -39,6 +40,7 @@
 }
 .choose-coach {
 	transition: 0.3s;
+
 }
 /*cong tru*/
 .amount-menber{

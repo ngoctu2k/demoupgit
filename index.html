@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="cssbooking/slick.css">
     <link rel="stylesheet" href="cssbooking/slick-theme.css">
+    <link rel="stylesheet" href="cssbooking/caterogi-3.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -72,33 +73,26 @@
                 <div class="menu__top container">
                     <div class="list__menutop">
                         <form class="form__menu" action="">
-                            
-                                
-                                    <select class=" select__group" name="Location" id="" value="Location">Training
-                                        <option value="">Training</option>
-                                        <option value="">Training</option>
-                                        <option value="">Training</option>
-                                    </select>
-                               
-                                
-                                    <select class="select__group" name="" id="">Location
-                                        <option value="">Location</option>
-                                        <option value="">Training</option>
-                                        <option value="">Training</option>
-                                    </select>
-                               
-                              
-                                    <select class="select__group" name="Trainer" id="">
-                                        <option value="">Training</option>
-                                        <option value="">Training</option>
-                                        <option value="">Training</option>
-                                    </select>
-                              
-                               
-                                    <button class="submit__menu" type="submit">Search Training</button>
-                               
 
-                           
+                            <select class=" select__group" name="Location" id="" value="Location">Training
+                                <option value="">Training</option>
+                                <option value="">Training</option>
+                                <option value="">Training</option>
+                            </select>
+
+                            <select class="select__group" name="" id="">Location
+                                <option value="">Location</option>
+                                <option value="">Training</option>
+                                <option value="">Training</option>
+                            </select>
+
+                            <select class="select__group" name="Trainer" id="">
+                                <option value="">Training</option>
+                                <option value="">Training</option>
+                                <option value="">Training</option>
+                            </select>
+
+                            <button class="submit__menu" type="submit">Search Training</button>
 
                         </form>
 
@@ -318,7 +312,10 @@
             <div class="container container--more-courses">
                 <div class="more-courses">
                     <div class="add-courses">
-                        <button class="add-courses-icon"><i class="fas fa-plus "></i></button>
+                        <button class="add-courses-icon">
+                            <i id="see-more" class=" fas fa-plus "></i>
+                            <i id="hide-more" class="fas fa-minus"></i>
+                        </button>
 
                         <div class="infor-courses">
                             <h2 class="courses-yoga">Yoga DIY - Lunging, foot & knee alignment and breathing</h2>
@@ -327,21 +324,113 @@
                                 <span class="courses-Location">Location: 415 Temple Lane, Antioch, CA 94509</span>
                             </div>
                             <div class="time--courses">March 2, 2020 - March 20, 2020 6:00 am - 7:30 am , March 11, 2020 - March 26, 2020 5:00 am . ..</div>
+                            <div id="andi">
+                                <h3 >ABOUT THIS EVENT</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem</p>
+
+                                <h3 class="title-training-infor">Trainer</h3>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="row">
+                                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                                <label class="choose-coach " id="coachmale">
+                                                    
+                                                    <img class="img-coach-male" src="images/Alex Brian.png" alt="">
+                                                    <i id="checkedmale" class="icon-check-coach fas fa-check-circle">
+                                                      
+                                                    </i>
+                                                      <input hidden type="radio" name="chonhlv">
+
+                                                </label>
+                                            </div>
+                                            <div class="col-md-6 col-xs-6 col-sm-6">
+                                                <label for="hlvnu" class="choose-coach " id="coachfemale">
+
+                                                    <img class="img-coach-male" src="images/coach-female.png" alt="">
+                                                    <i id="checkedfemale" class="icon-check-coach fas fa-check-circle">
+                                                      
+                                                    </i>
+                                                    <input hidden id="hlvnu" type="radio" name="chonhlv" >
+                                                    
+                                                     
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                           
+                            <h3 class="title-book">Book Appoitment</h3>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                            <p>Number of preson</p>
+                                        </div>
+
+                                        <div class="co-md-6 col-sm-6 col-xs-6 aaa amount-menber">
+                                            <button type="button" id="minus" class="button_plus">-</button>
+                                            <input id="input_value" class="input_amout" checked="none" value="01" max="15" min="1">
+                                            <button type="button" id="plus" class="button_minus">+</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 ">
+                                    <div class="row">
+                                        <div class="col-md-6 col-xs-6 col-sm-6">
+                                            <p>Selcect time</p>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                            <p>
+                                             <select name="" id="">
+                                                <option value="">7:00 - 7:30</option>
+                                                <option value="">7:30 - 8:30</option>
+                                                <option value="">9:00 - 10:30</option>
+                                            </select> </p>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <p class="col-md-6 col-sm-6 col-xs-6 ">
+                                            <button class="button-index-booknow">Book Now</button>
+                                        </p>
+                                        <p class="col-md-6 col-xs-6 col-sm-6">
+                                            <button class=" button-index-addcart">Add to Cart</button>
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                             </div>
                         </div>
                     </div>
                     <div class="price-courses">
                         <span class="price-courses-dance">$80</span>
                     </div>
                 </div>
-            </div>
 
+            </div>
+        </div>
         </div>
         <div class="container-fluid  container-fluid__courses">
 
             <div class="container container--more-courses">
                 <div class="more-courses">
                     <div class="add-courses">
-                        <button class="add-courses-icon"><i class="fas fa-plus "></i></button>
+                        <button id="btn_see-more" class="add-courses-icon">
+                            <i id="see-more" class=" fas fa-plus "></i>
+                            <i id="hide-more" class="fas fa-minus"></i>
+                        </button>
                         <div class="infor-courses">
                             <h2 class="courses-yoga">Yoga DIY - Lunging, foot & knee alignment and breathing</h2>
                             <div class="address-courses">

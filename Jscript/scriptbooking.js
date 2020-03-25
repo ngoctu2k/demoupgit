@@ -81,3 +81,19 @@ $('.slider_employee1').slick({
   autoplay: true,
   autoplaySpeed: 2000,
 });
+// see more
+$('#see-more').click (function(){
+  $('#see-more').hide();
+  $('#hide-more').show();
+  $('#andi').show(1000);
+ 
+
+})
+$('#hide-more').click (function(){
+$('#andi').hide(1000);
+ $('#see-more').show();
+  $('#hide-more').hide();
+  
+ 
+
+})

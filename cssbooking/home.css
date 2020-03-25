@@ -451,6 +451,23 @@ font-size: 30px;
 html {
   scroll-behavior: smooth;
 }
+button.button-index-booknow,button.button-index-addcart{
+	    width: 150px;
+  
+    border: 1px solid #e68947;
+    outline: none;
+    background: #e68947;
+    line-height: 30px
+}
+#hide-more{
+	display: none;
+}
+#andi{
+	display: none;
+}
+h3.title-book{
+	font-weight: 600;
+}
 /*mobile*/
 .nav_mobile{
 	position: fixed;
@@ -557,6 +574,10 @@ html {
 	.title--service{
 		margin-top: 0;
 	}
+	.price-courses{
+		top: 55px;
+    right: 0px;
+	}
 } 
 /*rponsive*/
 @media all and (max-width: 767px) {
@@ -613,6 +634,16 @@ html {
 		margin-top: 10px;
 		margin-bottom: 0;
 	}
+	#andi h3{
+		font-size: 16px;
+	}
+	h3.title-book{
+		margin-top: 10px;
+	}
+	h3.title-training-infor{
+		margin-top: 10px;
+		margin-bottom: 0;
+	}
 
 }
 /*ip5*/
@@ -652,7 +683,7 @@ html {
 		margin-top: 0;
 	}
 	.price-courses{
-		top: 45%;
+		top: 60px;
 	}
 	.fa-shopping-cart{
 		font-size: 26px;
@@ -697,6 +728,15 @@ html {
 	h2.courses-yoga{
 		font-size: 18px;
 	}
+	#andi h3{
+		font-size: 16px;
+	}
+	h3.title-training-infor{
+		margin: 0;
+	}
+	h3.title-book{
+		margin-top: 0;
+	}
 	
 }
 @media all and (max-width: 479px){
@@ -709,8 +749,22 @@ html {
 	.time--courses{
 		font-size: 10px;
 	}
-	.price-courses{
-		top: 42%;
+	#andi h3 {
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 10px;
+	}
+	#andi p {
+    font-size: 10px;
+	}
+	button.button-index-booknow,
+	button.button-index-addcart{
+		line-height: 20px;
+	}
+	button#minus,button#plus,input#input_value{
+		line-height: 20px;
+		height: 20px;
+		width: 20px;
 	}
 	button.add-courses-icon{
 		padding: 4px;
@@ -721,6 +775,10 @@ html {
     height: 30px;
     font-size: 14px;
     line-height: 30px;
+	}
+	button.button-index-booknow,
+	button.button-index-addcart{
+		width: 100px;
 	}
 
 }
@@ -783,4 +841,35 @@ html {
 		margin-top: 0;
 	}
 }
-@media all and (min-width: 321px) and (max-width: )
+@media all and (max-width: 992px){
+	.our--service{
+		top: 10%;
+	}
+	.city{
+		margin-top: 0;
+	}
+	.checkout_right-head>h2{
+		margin: 0;
+		font-size: 28px;
+	}
+	span.checkout-address{
+		font-size: 14px;
+    line-height: 30px;
+	}
+	p.title--card-infor{
+		padding-bottom: 35px;
+	}
+}
+@media all and (max-width:1199px ){
+	.city{
+		margin-top: 0;
+	}
+	input.input_name.expiration,
+	input.input_name.cvv,
+	input.input_name.firstname,
+	input.input_name.lastname,
+	.phone,.e-mail{
+		width: 45%;
+	}
+	.phone{}
+}

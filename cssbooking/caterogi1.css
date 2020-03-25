@@ -28,8 +28,8 @@ transform: scale(1.1);
 .gym-star{
 	position: absolute;
 	left: 10%;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 45%;
+
 }
 .row_caterogi1{
 	color: #fff;
@@ -65,4 +65,7 @@ transform: scale(1.1);
 	transform: translate(-50%,-50%);
 	font-size: 50px;
 	font-weight: 700;
+}
+.content_caterogi1{
+
 }
