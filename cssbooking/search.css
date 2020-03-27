@@ -8,6 +8,12 @@
 	font-size: 18px;
 	line-height: 52px;
 	border: none;
+	background: #f0f0f0;
+	margin-right: 1px;
+	padding-left: 15px;
+}
+.container--select{
+	display: flex;
 }
 .search_search{
 	float: left;
@@ -16,10 +22,100 @@
 	font-size: 18px;
 	line-height: 52px;
 	border: none;
+	background: #e17044;
 }
 .section2_search{
 	padding: 50px 0;
 }
 .search_detail{
 	padding: 0 100px;
+}
+.pignose-calendar.pignose-calendar-light.pignose-calendar-default{
+	width: 100% !important;
+	max-width: unset !important;
+	border-radius: 33px;
+}
+.pignose-calendar-top{
+	border-radius: 33px 33px 0 0;
+}
+.container-coach-search{
+	text-align: center;
+	background: #f0f0f0;
+	height: 100%;
+	      width: 80%;
+}
+.container-coach-search img{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	margin-top: 50px;
+}
+.section3_search h3{
+	font-weight: 600;
+	font-size: 30px;
+}
+.container-coach-search p{
+	font-size: 24px;
+	font-weight: 500;
+}
+.seach-left{
+	
+}
+.minh-right{
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+.section3_search{
+	padding-bottom: 100px;
+}
+@media all and (max-width: 767px){
+	form.form_search{
+		padding: 0;
+	}
+	.section3_search h3{
+		font-size: 18px;
+	}
+	.container-coach-search p {
+		font-size: 16px;
+	}
+	.container-coach-search img{
+		height: 200px;
+		width: 200px;
+		margin-top: 20px;
+	}
+	.search_detail{
+		padding: 0;
+	}
+	.minh-right{
+		display: none;
+	}
+	select.select_search{
+		height: 40px;
+		line-height: 40px;
+		font-size: 16px;
+	}
+	button.search_search{
+		height: 40px;
+		line-height: 40px;
+		font-size: 16px;
+	}
+	.w-100{
+		width: 80% !important;
+		    padding-top: 40px;
+	}
+}
+@media all and (min-width: 768px) and (max-width: 991px){
+	.container-coach-search{
+		width: 100%;
+	}
+	.container-coach-search img{
+		width: 150px;
+		height: 150px;
+	}
+	.form_search{
+		padding: 0;
+	}
+	.search_detail{
+		padding: 0;	
+	}
 }

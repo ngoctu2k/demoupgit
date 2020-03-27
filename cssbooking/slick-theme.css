@@ -88,11 +88,11 @@
 }
 .slick-prev:before
 {
-    content: '<';
+    content: '←';
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: '<i class="fas fa-arrow-circle-right"></i>';
+    content: '→';
 }
 
 .slick-next
@@ -106,11 +106,11 @@
 }
 .slick-next:before
 {
-    content: '>';
+    content: '→';
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '<';
+    content: '←';
 }
 
 /* Dots */
@@ -178,7 +178,7 @@
 .slick-dots li button:before
 {
     font-family: 'slick';
-    font-size: 16px;
+    font-size: 6px;
     line-height: 20px;
 
     position: absolute;

@@ -1,8 +1,10 @@
 .section2-employee1{
-	padding: 50xp 0;
+	padding: 50px 0;
 }
 .title-employee1{
 	text-align: center;
+	margin-bottom: 30px; 
+	font-weight: 500;
 }
 .slick-dots li button:before{
 

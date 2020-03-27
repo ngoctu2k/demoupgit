@@ -58,11 +58,14 @@
     			<div class="row row_profile">
     			<div class="col-md-4 change-avatar">
     				<div class="edit-avatar">
-    					<img class="img_avatar" src="images/profile-img.jpg" alt="">
+                        <div class="edit-avatar-container">
+                            <img class="img_avatar"  id="output" src="images/profile-img.jpg">
+                        </div>
+    					
     					<div class="choosefile-avatar">
     						<div class="choosefile-avatar-links">
     							<i class="icon-change-avatar fas fa-camera"></i>
-    						<input class="input-avatar" type="file" accept=".png, .jpg, .jpeg" />
+    						<input class="input-avatar" type="file" accept="image/*"  onchange="loadFile(event)">
     						</div>
     						
     					</div>
@@ -132,8 +135,15 @@
         </ul>
         <button id="closemobile" class="close-menu-mobile"> X </button>
     </div>
-<script src=" Jscript/scriptbooking.js">
-
+<script >
+var loadFile = function(event) {
+    var reader = new FileReader();
+    reader.onload = function(){
+      var output = document.getElementById('output');
+      output.src = reader.result;
+    };
+    reader.readAsDataURL(event.target.files[0]);
+  };
 </script>
 </body>
 </html>

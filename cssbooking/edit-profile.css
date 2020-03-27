@@ -11,9 +11,19 @@
     text-align: center;
     position: relative;
 }
+.edit-avatar-container{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
 .img_avatar{
 	max-width: 100%;
 	vertical-align: middle;
+	    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+      border: 1px solid #ddd;
+    padding: 5px;
 }
 .choosefile-avatar-links{
 width: 50px;

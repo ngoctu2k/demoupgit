@@ -12,17 +12,17 @@
     <link rel="stylesheet" href="cssbooking/home.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="cssbooking/search.css">
+    <link rel="stylesheet" href="cssbooking/pignose.calendar.min.css">
 
-<link rel="stylesheet" href="cssbooking/slick.css">
-    <link rel="stylesheet" href="cssbooking/slick-theme.css">
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="Jscript/slick.js"></script>
-    <script src="Jscript/slick.min.js"></script>
+    <script src="Jscript/pignose.calendar.full.min.js"></script>
+
 </head>
 <body>
 	 <!-- section header -->
@@ -54,23 +54,26 @@
     <section class="section2_search">
     	<div class="container">
     		<form class="form_search" action="">
-    			<select class="select_search" name="" id="">
-    				<option value="">Văn Minh</option>
-    				<option value="">Ngô Thịnh</option>
-    				<option value="">Ngọc Tú</option>
-    			</select>
-    			<select class="select_search" name="" id="">
-    				<option value="">Văn Minh</option>
-    				<option value="">Ngô Thịnh</option>
-    				<option value="">Ngọc Tú</option>
-    			</select>
-    			<select class="select_search" name="" id="">
-    				<option value="">Văn Minh</option>
-    				<option value="">Ngô Thịnh</option>
-    				<option value="">Ngọc Tú</option>
-    			</select>
-    			<button type="submit" class="search_search">Search</button>
+                <div class="container--select">
+                    <select class="select_search" name="" id="">
+                    <option value="">Văn Minh</option>
+                    <option value="">Ngô Thịnh</option>
+                    <option value="">Ngọc Tú</option>
+                </select>
+                <select class="select_search" name="" id="">
+                    <option value="">Văn Minh</option>
+                    <option value="">Ngô Thịnh</option>
+                    <option value="">Ngọc Tú</option>
+                </select>
+                <select class="select_search" name="" id="">
+                    <option value="">Văn Minh</option>
+                    <option value="">Ngô Thịnh</option>
+                    <option value="">Ngọc Tú</option>
+                </select>
+                <button type="submit" class="search_search">Search</button>
 
+                </div>
+    			
     		</form>
     	</div>
     </section>
@@ -78,27 +81,22 @@
     	<div class="container">
     		<div class="search_detail">
     			<div class="row">
-    			<div class="col-md-6">
-    				<div>
+    			<div class="col-lg-6 col-md-5 seach-left">
+    				<div class="container-coach-search">
     					<img src="images/hlvnu.png" alt="">
-    				<h3>Minh Giấu Tên</h3>
+    				<h3 >Minh Giấu Tên</h3>
     				<p>YOGA</p>
     				</div>
     				
     			</div>
-    			<div class="col-md-6">
+    			<div class="col-lg-6 col-md-7">
     				<div>
-    					<h3>Minh Giấu Tên</h3>
-    					<script type="text/javascript" language="JavaScript" src="http://www.informatik.uni-leipzig.de/~duc/amlich/JavaScript/amlich-hnd.js">
-
-				</script>
-				<script language="JavaScript">
-<!--
-				setOutputSize("bigg");
-				document.writeln(printSelectedMonth());
--->
-				</script>
-    				</div>
+    					<h3 class="minh-right">Minh Giấu Tên</h3>
+    		
+                                <div class="calendar  w-100">            
+                    </div>
+			       
+    			
     			</div>
     		</div>
     		</div>
@@ -117,5 +115,8 @@
         </ul>
         <button id="closemobile" class="close-menu-mobile"> X </button>
     </div>
+    <script>
+        $('.calendar').pignoseCalendar();
+    </script>
 </body>
 </html>
